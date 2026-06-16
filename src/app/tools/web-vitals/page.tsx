@@ -116,7 +116,7 @@ export default function WebVitalsPage() {
             </div>
             <div className="flex-1 flex flex-col gap-2">
               {scanLogs.map((log, i) => (
-                <div key={i} className="animate-pulse">> {log}</div>
+                <div key={i} className="animate-pulse">&gt; {log}</div>
               ))}
               <div className="animate-bounce mt-4">_</div>
             </div>
