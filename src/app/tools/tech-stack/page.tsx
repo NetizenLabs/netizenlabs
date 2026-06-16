@@ -51,7 +51,7 @@ export default function TechStackPage() {
     // Call actual server action
     const res = await analyzeTechStack(formattedUrl);
 
-    if (res.success) {
+    if (res.success && res.data) {
       await addLog(`[HTTP] Headers intercepted (${res.data.headers} keys detected)`, 600);
       await addLog(`[PARSER] Downloading HTML payload...`, 400);
       await addLog(`[PARSER] Extracting DOM signatures...`, 700);

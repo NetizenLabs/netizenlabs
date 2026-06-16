@@ -25,7 +25,7 @@ export default function SEOScraperPage() {
 
     const res = await scrapeSEO(formattedUrl);
 
-    if (res.success) {
+    if (res.success && res.data) {
       setResults(res.data);
       setStatus('complete');
     } else {

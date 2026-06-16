@@ -55,7 +55,7 @@ export default function WebVitalsPage() {
 
     const res = await analyzeWebVitals(formattedUrl);
 
-    if (res.success) {
+    if (res.success && res.data) {
       setResults(res.data);
       setStatus('complete');
     } else {
