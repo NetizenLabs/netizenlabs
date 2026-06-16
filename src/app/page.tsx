@@ -31,8 +31,8 @@ export default function Home() {
           </h1>
 
           {/* Subheadline */}
-          <p className="text-lg md:text-xl opacity-70 max-w-2xl mb-12 leading-relaxed hero-enter delay-100">
-            Led by elite technical architects. We build enterprise-grade SaaS, edge-deployed tools, and lightning-fast digital experiences with perfect performance scores.
+          <p className="text-lg md:text-xl opacity-70 max-w-3xl mb-12 leading-relaxed hero-enter delay-100">
+            Led by elite technical architects, we are an enterprise Next.js architecture agency. We build bespoke SaaS platforms, edge-deployed web applications, and lightning-fast digital experiences. Through rigorous technical SEO optimization, we guarantee perfect performance scores and uncompromised LLM search readiness.
           </p>
 
           {/* CTAs */}
