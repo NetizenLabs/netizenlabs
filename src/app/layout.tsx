@@ -17,17 +17,14 @@ export const metadata: Metadata = {
     default: "Netizen Labs | Engineering Web Apps That Dominate Search",
     template: "%s | Netizen Labs",
   },
-  description: "Led by elite technical architects. We build enterprise-grade SaaS, edge-deployed tools, and lightning-fast digital experiences with perfect performance scores.",
+  description: "Engineered by a solo technical architect. I build enterprise-grade SaaS, edge-deployed tools, and lightning-fast digital experiences with top-tier performance scores.",
   keywords: ["Web Development Agency", "Next.js Experts", "Technical SEO", "Edge Computing", "React Architecture", "Core Web Vitals", "SaaS Development"],
   authors: [{ name: "Netizen Labs Team" }],
   creator: "Netizen Labs",
   metadataBase: new URL("https://netizenlabs.online"),
-  alternates: {
-    canonical: '/',
-  },
   openGraph: {
     title: "Netizen Labs | High-Performance Engineering",
-    description: "We engineer enterprise-grade SaaS and edge-deployed tools.",
+    description: "I engineer enterprise-grade SaaS and edge-deployed tools.",
     url: "https://netizenlabs.online",
     siteName: "Netizen Labs",
     locale: "en_US",
@@ -36,7 +33,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Netizen Labs | Engineering Web Apps That Dominate Search",
-    description: "Led by elite technical architects. We build enterprise-grade SaaS, edge-deployed tools, and lightning-fast digital experiences.",
+    description: "Engineered by a solo technical architect. I build enterprise-grade SaaS, edge-deployed tools, and lightning-fast digital experiences.",
     creator: "@WebToolkitPro",
   },
   robots: {
@@ -66,7 +63,7 @@ export default function RootLayout({
     "name": "Netizen Labs",
     "url": "https://netizenlabs.online",
     "logo": "https://netizenlabs.online/logo.png",
-    "description": "Enterprise Next.js architecture agency specializing in technical SEO, edge-deployed web applications, and LLM search readiness.",
+    "description": "Enterprise Next.js architecture studio specializing in technical SEO, edge-deployed web applications, and LLM search readiness.",
     "sameAs": [
       "https://twitter.com/WebToolkitPro"
     ]
@@ -81,7 +78,7 @@ export default function RootLayout({
         "name": "What is an enterprise Next.js architecture agency?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "An enterprise Next.js architecture agency focuses on building highly scalable, edge-deployed web applications using the Next.js framework. We ensure perfect Core Web Vitals, maximum SEO visibility, and optimal server-side rendering for large-scale SaaS businesses."
+          "text": "As an enterprise Next.js architecture studio, I focus on building highly scalable, edge-deployed web applications using the Next.js framework. I ensure top-tier Core Web Vitals, maximum SEO visibility, and optimal server-side rendering for large-scale SaaS businesses."
         }
       },
       {
@@ -89,7 +86,7 @@ export default function RootLayout({
         "name": "How do you achieve perfect Core Web Vitals scores?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "We achieve 100/100 Lighthouse performance scores by leveraging edge caching on Cloudflare and Vercel, aggressive image optimization, removing render-blocking JavaScript, and structuring Semantic HTML5 directly into our React component trees."
+          "text": "I optimize Core Web Vitals by leveraging edge caching on Cloudflare and Vercel, aggressive image optimization, removing render-blocking JavaScript, and structuring Semantic HTML5 directly into React component trees."
         }
       },
       {

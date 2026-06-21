@@ -5,21 +5,18 @@ export default function BlogPage() {
     {
       title: "Why Edge-Rendering is the Future of High-Intent SEO",
       excerpt: "Analyzing the performance benefits of Vercel's Edge Network compared to traditional Node.js serverless functions for programmatic SEO.",
-      date: "Oct 24, 2024",
       readTime: "5 min read",
       category: "Architecture"
     },
     {
       title: "Zero-Server Web Apps: A Practical Guide",
       excerpt: "How we eliminate database latency and server costs by building 100% client-side, instant-execution developer utilities.",
-      date: "Oct 12, 2024",
       readTime: "8 min read",
       category: "Engineering"
     },
     {
       title: "Lighthouse 100/100: The Invisible Details",
       excerpt: "Breaking down the exact CSS and JavaScript optimization techniques required to hit perfect performance scores on mobile.",
-      date: "Sep 28, 2024",
       readTime: "6 min read",
       category: "Performance"
     }
@@ -42,8 +39,6 @@ export default function BlogPage() {
               <div className="py-8 border-b border-[var(--foreground)]/10 transition-colors group-hover:border-[var(--accent)]/50">
                 <div className="flex items-center gap-4 text-xs font-bold uppercase tracking-widest opacity-50 mb-4 font-mono">
                   <span className="text-[var(--accent)]">{article.category}</span>
-                  <span>•</span>
-                  <span>{article.date}</span>
                   <span>•</span>
                   <span>{article.readTime}</span>
                 </div>

@@ -28,12 +28,12 @@ export default function Home() {
 
           {/* Headline */}
           <h1 className="text-5xl md:text-7xl lg:text-[5rem] font-extrabold tracking-tight mb-8 hero-enter delay-50 leading-[1.05]">
-            We Engineer Web Apps <br className="hidden md:block" /> That Dominate Search.
+            I Engineer Web Apps <br className="hidden md:block" /> That Dominate Search.
           </h1>
 
           {/* Subheadline */}
           <p className="text-lg md:text-xl opacity-70 max-w-2xl mb-12 leading-relaxed hero-enter delay-100">
-            Led by elite technical architects. We build enterprise-grade SaaS, edge-deployed tools, and lightning-fast digital experiences with perfect performance scores.
+            Engineered by a solo technical architect. I build enterprise-grade SaaS, edge-deployed tools, and lightning-fast digital experiences with top-tier performance scores.
           </p>
 
           {/* CTAs */}
@@ -82,7 +82,7 @@ export default function Home() {
       <section className="py-16 bg-[var(--background)]">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <p className="text-sm md:text-base opacity-50 leading-relaxed font-mono">
-            As an enterprise Next.js architecture agency, we build bespoke SaaS platforms, edge-deployed web applications, and lightning-fast digital experiences. Through rigorous technical SEO optimization, we guarantee perfect performance scores and uncompromised LLM search readiness.
+            As an enterprise Next.js architecture studio, I build bespoke SaaS platforms, edge-deployed web applications, and lightning-fast digital experiences. Through rigorous technical SEO optimization, I guarantee top-tier performance scores and uncompromised LLM search readiness.
           </p>
         </div>
       </section>

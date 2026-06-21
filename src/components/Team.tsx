@@ -8,7 +8,7 @@ export default function Team() {
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
           <div className="max-w-2xl">
             <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight mb-4">Engineering Leadership</h2>
-            <p className="text-lg opacity-80">Our architecture is driven by engineers who have built and scaled enterprise platforms handling millions of users.</p>
+            <p className="text-lg opacity-80">My architecture is driven by experience building and scaling enterprise platforms.</p>
           </div>
         </div>
 
@@ -26,7 +26,7 @@ export default function Team() {
             </div>
             
             <h3 className="text-2xl font-bold mb-2">Abu Sufyan</h3>
-            <p className="text-sm font-mono text-[var(--accent)] mb-4">Lead Technical Architect</p>
+            <p className="text-sm font-mono text-[var(--accent)] mb-4">Technical Architect &amp; Solo Engineer</p>
             <p className="opacity-70 mb-6 leading-relaxed">
               Specialist in edge-deployed web applications, zero-server architecture, and technical SEO. Creator of WebToolkit Pro and driving force behind Netizen Labs' high-performance infrastructure.
             </p>
