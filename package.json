@@ -6,11 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "typecheck": "echo \"No typecheck needed\""
   },
   "dependencies": {
     "cheerio": "^1.2.0",
     "next": "16.2.9",
+    "nodemailer": "^9.0.1",
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },
@@ -23,5 +25,19 @@
     "eslint-config-next": "16.2.9",
     "tailwindcss": "^4",
     "typescript": "^5"
-  }
+  },
+  "description": "<div align=\"center\">   <a href=\"https://netizenlabs.online\">     <img src=\"https://github.com/user-attachments/assets/7a247d73-7960-44ea-994e-e3d5127075c9\" alt=\"Netizen Labs Logo\" width=\"120\" height=\"120\" />   </a>   <h1>Netizen Labs</h1>   <p><b>A global ecosystem of open-source, high-performance digital utilities.</b></p>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qurnahub-code/netizenlabs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/qurnahub-code/netizenlabs/issues"
+  },
+  "homepage": "https://github.com/qurnahub-code/netizenlabs#readme"
 }
