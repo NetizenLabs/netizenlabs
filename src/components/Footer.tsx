@@ -25,9 +25,37 @@ export default function Footer() {
       </div>
       <div className="max-w-6xl mx-auto px-6 mt-8 pt-8 border-t border-[var(--foreground)]/5 flex flex-col md:flex-row items-center justify-between text-xs opacity-40 gap-4">
         <p>© {new Date().getFullYear()} Netizen Labs. All rights reserved.</p>
-        <div className="flex gap-4">
+        <div className="flex flex-wrap gap-4 justify-center md:justify-end">
           <Link href="https://abusufyan.xyz" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--accent)] hover:underline font-bold transition-colors">
-            Lead Architect: Abu Sufyan
+            Abu Sufyan
+          </Link>
+          <span>•</span>
+          <Link href="https://wtkpro.site" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--accent)] hover:underline font-bold transition-colors">
+            WebToolkit Pro
+          </Link>
+          <span>•</span>
+          <Link href="https://tradeconvert.pro" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--accent)] hover:underline font-bold transition-colors">
+            TradeConvert
+          </Link>
+          <span>•</span>
+          <Link href="https://www.severancecalculator.xyz" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--accent)] hover:underline font-bold transition-colors">
+            Severance Pay
+          </Link>
+          <span>•</span>
+          <Link href="https://getstudynova.online" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--accent)] hover:underline font-bold transition-colors">
+            StudyNova
+          </Link>
+          <span>•</span>
+          <Link href="https://quranhub.xyz" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--accent)] hover:underline font-bold transition-colors">
+            QuranHub
+          </Link>
+          <span>•</span>
+          <Link href="https://slabreachcalculator.site" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--accent)] hover:underline font-bold transition-colors">
+            SLA Breach Calc
+          </Link>
+          <span>•</span>
+          <Link href="https://taxforfreelancers.online" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--accent)] hover:underline font-bold transition-colors">
+            Freelance Tax
           </Link>
         </div>
         <div className="flex gap-4">
