@@ -9,10 +9,10 @@ export default function CTA() {
       
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center flex flex-col items-center">
         <h2 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-6 leading-tight">
-          Ready to engineer your <br className="hidden sm:block"/> next unfair advantage?
+          Want videos like these <br className="hidden sm:block"/> for your brand?
         </h2>
         <p className="text-lg opacity-70 mb-10 max-w-xl">
-          Stop relying on slow, bloated templates. Let's build a lightning-fast digital experience that dominates search and converts.
+          Tell us about your product and where you want to be seen. We reply within 24 hours — or write to us directly at safi4730358@gmail.com.
         </p>
         
         <Link 

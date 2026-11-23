@@ -27,7 +27,7 @@ export default function ContactPage() {
         },
         body: JSON.stringify({
           access_key: '3dd29efe-c7b4-46a8-a42a-bd18f201622c', 
-          subject: `New Project Inquiry from ${formData.company || formData.name}`,
+          subject: `New Content Inquiry from ${formData.company || formData.name}`,
           name: formData.name,
           email: formData.email,
           company: formData.company,
@@ -57,7 +57,7 @@ export default function ContactPage() {
           </div>
           <h1 className="text-3xl font-extrabold tracking-tight mb-4">Message Sent</h1>
           <p className="text-lg opacity-70 mb-8">
-            Thanks for reaching out! We will review your project details and get back to you within 24 hours.
+            Thanks for reaching out! We will review your message and get back to you within 24 hours.
           </p>
           <Link href="/" className="px-6 py-3 rounded-full border border-[var(--foreground)]/20 font-bold hover:bg-[var(--foreground)]/5 transition-colors">
             Return to Homepage
@@ -74,7 +74,7 @@ export default function ContactPage() {
         <div className="mb-12 text-center hero-enter">
           <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-4">Start a Conversation</h1>
           <p className="text-lg opacity-70">
-            Tell us about your project. We'll get back to you within 24 hours to schedule a deep-dive technical audit.
+            Tell us about your brand and the videos you need. We&apos;ll get back to you within 24 hours.
           </p>
         </div>
 
@@ -111,7 +111,7 @@ export default function ContactPage() {
                 </div>
               </div>
               <div className="flex flex-col gap-2">
-                <label htmlFor="company" className="text-sm font-bold opacity-80 uppercase tracking-widest">Company / URL</label>
+                <label htmlFor="company" className="text-sm font-bold opacity-80 uppercase tracking-widest">Company / Brand</label>
                 <input 
                   type="text" 
                   id="company" 
@@ -125,7 +125,7 @@ export default function ContactPage() {
             </div>
 
             <div className="flex flex-col gap-2">
-              <label htmlFor="budget" className="text-sm font-bold opacity-80 uppercase tracking-widest">Estimated Budget</label>
+              <label htmlFor="budget" className="text-sm font-bold opacity-80 uppercase tracking-widest">Estimated Monthly Budget</label>
               <select 
                 id="budget" 
                 required
@@ -135,15 +135,15 @@ export default function ContactPage() {
                 onChange={(e) => setFormData({...formData, budget: e.target.value})}
               >
                 <option value="" disabled>Select a range</option>
-                <option value="Under $5k">Under $5k</option>
-                <option value="$5k - $10k">$5k - $10k</option>
-                <option value="$10k - $25k">$10k - $25k</option>
-                <option value="$25k+">$25k+</option>
+                <option value="Under $250">Under $250</option>
+                <option value="$250 - $1,000">$250 - $1,000</option>
+                <option value="$1,000 - $2,500">$1,000 - $2,500</option>
+                <option value="$2,500+">$2,500+</option>
               </select>
             </div>
 
             <div className="flex flex-col gap-2">
-              <label htmlFor="projectScope" className="text-sm font-bold opacity-80 uppercase tracking-widest">Project Details</label>
+              <label htmlFor="projectScope" className="text-sm font-bold opacity-80 uppercase tracking-widest">What do you need?</label>
               <textarea 
                 id="projectScope" 
                 required
@@ -152,13 +152,13 @@ export default function ContactPage() {
                 className="bg-[var(--background)] border border-[var(--foreground)]/20 rounded-xl px-4 py-3 focus:outline-none focus:border-[var(--accent)] transition-colors resize-none disabled:opacity-50"
                 value={formData.projectScope}
                 onChange={(e) => setFormData({...formData, projectScope: e.target.value})}
-                placeholder="What are we building?"
+                placeholder="e.g. 12 AI UGC videos a month for our skincare brand, for TikTok and Reels…"
               />
             </div>
 
             {status === 'error' && (
               <div className="text-red-500 text-sm font-bold text-center">
-                Something went wrong. Please try again or email us directly.
+                Something went wrong. Please try again or email us directly at safi4730358@gmail.com.
               </div>
             )}
 
@@ -175,6 +175,10 @@ export default function ContactPage() {
 
           </form>
         </div>
+
+        <p className="text-center text-sm opacity-50 mt-8">
+          Prefer email? Write to us at <span className="font-bold">safi4730358@gmail.com</span>
+        </p>
       </div>
     </main>
   );

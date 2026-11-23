@@ -3,7 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #0a0a0a;
-  --accent: #ff4500;
+  --accent: #c75b26;
   --ease-out-custom: cubic-bezier(0.23, 1, 0.32, 1);
 }
 
@@ -19,7 +19,7 @@
   :root {
     --background: #050505;
     --foreground: #ededed;
-    --accent: #ccff00;
+    --accent: #e8935c;
   }
 }
 

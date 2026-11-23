@@ -1,7 +1,7 @@
 import { ImageResponse } from 'next/og';
 
 export const runtime = 'edge';
-export const alt = 'Netizen Labs - Engineering Web Apps That Dominate Search';
+export const alt = 'Netizen Labs - AI Content Studio';
 export const size = {
   width: 1200,
   height: 630,
@@ -41,7 +41,7 @@ export default async function Image() {
             position: 'absolute',
             width: '600px',
             height: '300px',
-            background: '#ccff00',
+            background: '#d9835f',
             filter: 'blur(150px)',
             opacity: 0.2,
             borderRadius: '50%',
@@ -69,7 +69,7 @@ export default async function Image() {
             zIndex: 10,
           }}
         >
-          Engineering Web Apps That Dominate Search.
+          We Build AI Content Brands People Actually Watch.
         </div>
 
         {/* Footer/Pill */}
@@ -87,8 +87,8 @@ export default async function Image() {
             zIndex: 10,
           }}
         >
-          <div style={{ width: '12px', height: '12px', background: '#ccff00', borderRadius: '50%' }} />
-          <span>Zero-Server Model • 100/100 Performance</span>
+          <div style={{ width: '12px', height: '12px', background: '#d9835f', borderRadius: '50%' }} />
+          <span>1.2M views in 30 days • AI video for brands</span>
         </div>
       </div>
     ),

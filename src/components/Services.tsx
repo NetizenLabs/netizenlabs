@@ -1,24 +1,24 @@
 export default function Services() {
   const services = [
     {
-      title: "High-Intent SEO Architecture",
-      description: "I don't just write blogs. I engineer Next.js architectures that Google crawls instantly, leveraging edge-rendering for maximum ranking potential.",
+      title: "AI Short-Form Video Production",
+      description: "Scroll-stopping vertical videos for TikTok, Reels, Shorts and ads — researched, generated, edited and captioned end-to-end.",
       icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2 12h4l3-9 5 18 3-9h5"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m22 8-6 4 6 4V8Z"/><rect width="14" height="12" x="2" y="6" rx="2" ry="2"/></svg>
       )
     },
     {
-      title: "Free Tool Funnels",
-      description: "I build lightning-fast, client-side utility tools that attract enterprise developers and convert them into warm leads.",
+      title: "AI UGC & Ad Creatives",
+      description: "Believable people-and-product style videos that do not look obviously AI — built for brands that need creative volume without a camera crew.",
       icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 11l18-7-4 16-6-4-3 4v-6L3 11z"/></svg>
       )
     },
     {
-      title: "100/100 Performance Audits",
-      description: "Core Web Vitals matter. I tear down slow, bloated templates and rebuild them to achieve top-tier Lighthouse scores.",
+      title: "Channel Building & Content Systems",
+      description: "We launch and run faceless channels like our own: format research, daily publishing systems, and analytics-led iteration until a format proves itself.",
       icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2v20"/><path d="m17 5-5-3-5 3"/><path d="m17 19-5 3-5-3"/><path d="M2 12h20"/><path d="m5 7 3 5-3 5"/><path d="m19 7-3 5 3 5"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-6 4 3 5-8"/></svg>
       )
     }
   ];
@@ -27,9 +27,9 @@ export default function Services() {
     <section id="services" className="py-24 sm:py-32 relative bg-[var(--background)]">
       <div className="max-w-6xl mx-auto px-6">
         <div className="mb-16 max-w-3xl">
-          <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight mb-6">Enterprise Next.js Architecture Agency Capabilities</h2>
+          <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight mb-6">For Brands: The Same Engine, Working For You</h2>
           <p className="text-lg opacity-70 leading-relaxed mb-6">
-            I focus on specialized engineering services that directly drive traffic, conversions, and speed. By combining elite edge-deployed web application development with deep technical SEO optimization for SaaS, I ensure your digital presence is primed for both human users and AI Search Engines like Google SGE.
+            Everything on this page is our own work, produced with the same workflow we offer clients: research first, AI production with Google Flow / Veo, human editing and captions, and numbers checked before anything ships. Tell us about your product and we will reply within 24 hours.
           </p>
         </div>
 
@@ -48,51 +48,51 @@ export default function Services() {
               </p>
               
               <ul className="space-y-3 mt-auto border-t border-[var(--foreground)]/10 pt-6">
-                {service.title === "High-Intent SEO Architecture" && (
+                {service.title === "AI Short-Form Video Production" && (
                   <>
                     <li className="flex items-start gap-2 text-sm">
                       <span className="text-[var(--accent)] font-bold">✓</span> 
-                      <span><strong className="text-[var(--foreground)]">LLM Search Readiness Consulting:</strong> Structuring data for Perplexity and ChatGPT.</span>
+                      <span><strong className="text-[var(--foreground)]">Researched hooks:</strong> Every video starts from what is already working in your niche — never generic templates.</span>
                     </li>
                     <li className="flex items-start gap-2 text-sm">
                       <span className="text-[var(--accent)] font-bold">✓</span> 
-                      <span><strong className="text-[var(--foreground)]">Edge Cache Optimization:</strong> Delivering content instantly via global edge networks.</span>
+                      <span><strong className="text-[var(--foreground)]">Full production:</strong> Script, AI generation, edit, captions and platform-ready exports handled for you.</span>
                     </li>
                     <li className="flex items-start gap-2 text-sm">
                       <span className="text-[var(--accent)] font-bold">✓</span> 
-                      <span><strong className="text-[var(--foreground)]">Semantic HTML5:</strong> Strict heading hierarchies to feed AI crawlers efficiently.</span>
+                      <span><strong className="text-[var(--foreground)]">Daily volume:</strong> A publishing system, not one-off clips — built for consistency.</span>
                     </li>
                   </>
                 )}
-                {service.title === "Free Tool Funnels" && (
+                {service.title === "AI UGC & Ad Creatives" && (
                   <>
                     <li className="flex items-start gap-2 text-sm">
                       <span className="text-[var(--accent)] font-bold">✓</span> 
-                      <span><strong className="text-[var(--foreground)]">Custom Developer Tools Creation Services:</strong> Interactive calculators and auditors.</span>
+                      <span><strong className="text-[var(--foreground)]">Natural, not obviously AI:</strong> Realistic people, products and settings in the Veo 3 / Google Flow workflow.</span>
                     </li>
                     <li className="flex items-start gap-2 text-sm">
                       <span className="text-[var(--accent)] font-bold">✓</span> 
-                      <span><strong className="text-[var(--foreground)]">Zero-Server Architecture:</strong> Lowering infrastructure costs through zero-server edge execution.</span>
+                      <span><strong className="text-[var(--foreground)]">Test variations:</strong> One concept spun into multiple hooks so your ad account can find the winner.</span>
                     </li>
                     <li className="flex items-start gap-2 text-sm">
                       <span className="text-[var(--accent)] font-bold">✓</span> 
-                      <span><strong className="text-[var(--foreground)]">Lead Generation:</strong> Capturing high-intent enterprise SaaS clients on autopilot.</span>
+                      <span><strong className="text-[var(--foreground)]">Disclosure-safe:</strong> AI content labelled correctly for each platform&apos;s rules.</span>
                     </li>
                   </>
                 )}
-                {service.title === "100/100 Performance Audits" && (
+                {service.title === "Channel Building & Content Systems" && (
                   <>
                     <li className="flex items-start gap-2 text-sm">
                       <span className="text-[var(--accent)] font-bold">✓</span> 
-                      <span><strong className="text-[var(--foreground)]">Optimized LCP Times:</strong> Perfecting Largest Contentful Paint for maximum conversion.</span>
+                      <span><strong className="text-[var(--foreground)]">Proven on our own channels:</strong> 1.2M views in 30 days on one series; 429,876 views in under two months on another.</span>
                     </li>
                     <li className="flex items-start gap-2 text-sm">
                       <span className="text-[var(--accent)] font-bold">✓</span> 
-                      <span><strong className="text-[var(--foreground)]">Technical SEO Optimization:</strong> Removing render-blocking bloat from legacy systems.</span>
+                      <span><strong className="text-[var(--foreground)]">Fact-audited long-form:</strong> Numbers locked to sources and checked before publishing — no invented statistics.</span>
                     </li>
                     <li className="flex items-start gap-2 text-sm">
                       <span className="text-[var(--accent)] font-bold">✓</span> 
-                      <span><strong className="text-[var(--foreground)]">Top-Tier Lighthouse Scores:</strong> Delivering uncompromised performance metrics.</span>
+                      <span><strong className="text-[var(--foreground)]">Analytics-led:</strong> Formats are judged on watch data and iterated — or honestly retired.</span>
                     </li>
                   </>
                 )}

@@ -20,8 +20,9 @@ export default function Navbar() {
 
         {/* Desktop Links */}
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium opacity-80">
-          <Link href="/#services" className="transition-colors hover:text-[var(--accent)] active:scale-95">Services</Link>
-          <Link href="/tools" className="transition-colors hover:text-[var(--accent)] active:scale-95">Tools</Link>
+          <Link href="/#channels" className="transition-colors hover:text-[var(--accent)] active:scale-95">Channels</Link>
+          <Link href="/#products" className="transition-colors hover:text-[var(--accent)] active:scale-95">Products</Link>
+          <Link href="/#services" className="transition-colors hover:text-[var(--accent)] active:scale-95">For Brands</Link>
           <Link href="/blog" className="transition-colors hover:text-[var(--accent)] active:scale-95">Blog</Link>
         </nav>
 
@@ -31,7 +32,7 @@ export default function Navbar() {
             href="/contact" 
             className="hidden md:inline-flex text-sm font-bold px-4 py-2 rounded-full bg-[var(--foreground)] text-[var(--background)] transition-all duration-[160ms] ease-out-custom hover:scale-[1.02] active:scale-[0.97] select-none"
           >
-            Book Audit
+            Work With Us
           </Link>
           <button 
             className="md:hidden p-2 opacity-80 hover:opacity-100"
@@ -60,8 +61,9 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden absolute top-16 left-0 right-0 bg-[var(--background)] border-b border-[var(--foreground)]/5 shadow-xl p-6 flex flex-col gap-6 animate-in slide-in-from-top-2">
           <nav className="flex flex-col gap-4 text-base font-medium opacity-90">
-            <Link href="/#services" onClick={() => setIsOpen(false)} className="transition-colors hover:text-[var(--accent)]">Services</Link>
-            <Link href="/tools" onClick={() => setIsOpen(false)} className="transition-colors hover:text-[var(--accent)]">Tools</Link>
+            <Link href="/#channels" onClick={() => setIsOpen(false)} className="transition-colors hover:text-[var(--accent)]">Channels</Link>
+            <Link href="/#products" onClick={() => setIsOpen(false)} className="transition-colors hover:text-[var(--accent)]">Products</Link>
+            <Link href="/#services" onClick={() => setIsOpen(false)} className="transition-colors hover:text-[var(--accent)]">For Brands</Link>
             <Link href="/blog" onClick={() => setIsOpen(false)} className="transition-colors hover:text-[var(--accent)]">Blog</Link>
           </nav>
           <Link 
@@ -69,7 +71,7 @@ export default function Navbar() {
             onClick={() => setIsOpen(false)}
             className="text-center text-sm font-bold px-4 py-3 rounded-xl bg-[var(--foreground)] text-[var(--background)] transition-all hover:opacity-90 active:scale-[0.98]"
           >
-            Book Audit
+            Work With Us
           </Link>
         </div>
       )}

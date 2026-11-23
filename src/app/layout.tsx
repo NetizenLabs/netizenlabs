@@ -14,17 +14,17 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Netizen Labs | Engineering Web Apps That Dominate Search",
+    default: "Netizen Labs | AI Content Studio",
     template: "%s | Netizen Labs",
   },
-  description: "Engineered by a solo technical architect. I build enterprise-grade SaaS, edge-deployed tools, and lightning-fast digital experiences with top-tier performance scores.",
-  keywords: ["Web Development Agency", "Next.js Experts", "Technical SEO", "Edge Computing", "React Architecture", "Core Web Vitals", "SaaS Development"],
-  authors: [{ name: "Netizen Labs Team" }],
+  description: "Netizen Labs is an AI content studio. We build short-form video channels, digital products and books — and produce AI video for brands. Our series passed 1.2M views in 30 days.",
+  keywords: ["AI Content Studio", "AI Video Production", "AI UGC", "Short-Form Video", "YouTube Shorts", "Facebook Reels", "Faceless Channels", "Digital Products", "AI Video Creator"],
+  authors: [{ name: "Abu Sufyan" }],
   creator: "Netizen Labs",
   metadataBase: new URL("https://netizenlabs.online"),
   openGraph: {
-    title: "Netizen Labs | High-Performance Engineering",
-    description: "I engineer enterprise-grade SaaS and edge-deployed tools.",
+    title: "Netizen Labs | AI Content Studio",
+    description: "We build AI content brands people actually watch — and produce AI video for brands.",
     url: "https://netizenlabs.online",
     siteName: "Netizen Labs",
     locale: "en_US",
@@ -32,8 +32,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Netizen Labs | Engineering Web Apps That Dominate Search",
-    description: "Engineered by a solo technical architect. I build enterprise-grade SaaS, edge-deployed tools, and lightning-fast digital experiences.",
+    title: "Netizen Labs | AI Content Studio",
+    description: "We build AI content brands people actually watch — and produce AI video for brands.",
     creator: "@WebToolkitPro",
   },
   robots: {
@@ -63,8 +63,10 @@ export default function RootLayout({
     "name": "Netizen Labs",
     "url": "https://netizenlabs.online",
     "logo": "https://netizenlabs.online/logo.png",
-    "description": "Enterprise Next.js architecture studio specializing in technical SEO, edge-deployed web applications, and LLM search readiness.",
+    "description": "AI content studio building short-form video channels, digital products and books, and producing AI video and UGC creatives for brands.",
     "sameAs": [
+      "https://www.youtube.com/@orangecatchaos11",
+      "https://safyan1.gumroad.com",
       "https://twitter.com/WebToolkitPro"
     ]
   };
@@ -75,26 +77,26 @@ export default function RootLayout({
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "What is an enterprise Next.js architecture agency?",
+        "name": "What does Netizen Labs do?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "As an enterprise Next.js architecture studio, I focus on building highly scalable, edge-deployed web applications using the Next.js framework. I ensure top-tier Core Web Vitals, maximum SEO visibility, and optimal server-side rendering for large-scale SaaS businesses."
+          "text": "Netizen Labs is an AI content studio. We research, produce and publish our own short-form video channels and pages on YouTube and Facebook, sell digital planners, organisers and books, and produce AI video for brands."
         }
       },
       {
         "@type": "Question",
-        "name": "How do you achieve perfect Core Web Vitals scores?",
+        "name": "Can Netizen Labs make videos for my brand?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "I optimize Core Web Vitals by leveraging edge caching on Cloudflare and Vercel, aggressive image optimization, removing render-blocking JavaScript, and structuring Semantic HTML5 directly into React component trees."
+          "text": "Yes. We offer AI short-form video production, AI UGC and ad creatives, and channel building — using the same workflow behind our own channels, including a Facebook series that passed 1.2 million views in 30 days. Contact us through the site and we reply within 24 hours."
         }
       },
       {
         "@type": "Question",
-        "name": "What is LLM search readiness consulting?",
+        "name": "Where can I buy Netizen Labs products?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "LLM search readiness involves structuring a website's data, heading hierarchy, and entity relationships so that AI search engines (like ChatGPT, Perplexity, and Google SGE) can easily parse, understand, and recommend your services over competitors."
+          "text": "Our fillable planners and organisers — including the CareNest caregiver range and the Multi-Day Shaadi Planner — are sold in our Gumroad store, and our large-print puzzle and coloring books are on Amazon KDP. Every paid product has a free sample."
         }
       }
     ]
